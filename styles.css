@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+VIBRANT CORAL: #F9564F
+SEAWEED: #00B295
+EMERALD: #0CCE6B
+AMBER GOLD: #FFC43D
+DARK AMETHYST: #34113F
+
+*/
+.hero-content {
+    background-image: url("images/the_grove.jpeg");
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+#hero-text1 {
+    color: #EF8354;
+    position: relative;
+    bottom: 20px;
+}
+
+#hero-text2 {
+    color: #EF8354;
+    position: relative;
+    bottom: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+ }
+
+/* .shadow-text {
+    text-shadow: 
+    3px 2px 1px #34113F;
+} */
+
+.dense-shadow {
+  /* Stacking 4 identical shadows for maximum density */
+  text-shadow: 
+    1px 1px 7px #34113F,
+    1px 1px 7px #34113F,
+    1px 1px 7px #34113F,
+    1px 1px 7px #34113F;
+}    
+
+#profile {
+    height: 150px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #F9564F;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.activities {
+    background-color: #DCED31;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.act-imgs {
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+#farm-market, #theatre, #trail {
+    border-radius: 450px;
+}
+
+#farm-market:hover, #theatre:hover, #trail:hover {
+     transform: scale(1.05); /* Slight zoom on hover */
+}
+
+#left-orange, #right-orange {
+    mix-blend-mode: multiply;
+}
+
+#left-orange {
+    position: relative;
+    left: 30px;
+}
+
+#right-orange {
+    position: relative;
+    right: 30px;
+}
+
+.guide {
+    background-color: #00B295;
+    padding: 1px 100px; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.gradient-divider {
+  height: 150px; /* Controls how long the transition takes */
+  background: linear-gradient(to bottom, #DCED31, #00B295);
+}
